@@ -1,5 +1,5 @@
 #body  {
-  text-align: left;
+  text-align: center;
   width: auto;
   background-color: black;
 }
@@ -11,7 +11,22 @@
 }
 
 #name {
-   padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
 }
 
 body {

@@ -1,21 +1,148 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>allotrope </title>
-    <meta name="author" content="dyson" />
-    <link rel="canonical" href="https://www.allotrope.github.io" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <script data-ad-client="ca-pub-5482298961737957" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>labdog.io</title>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #000;
+      color: #f7f7f7;
+      font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      letter-spacing: -0.2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+    }
+
+    main {
+      width: min(720px, 100%);
+      display: grid;
+      gap: 20px;
+      border: 1px solid #222;
+      padding: 28px;
+      background: #050505;
+      box-shadow: 0 0 0 1px #0f0f0f;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      color: #dcdcdc;
+      font-size: 14px;
+      text-transform: lowercase;
+      letter-spacing: 0.5px;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .tagline {
+      color: #7a7a7a;
+      font-size: 12px;
+    }
+
+    .prompt-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .prompt-list > div {
+      padding: 8px 0;
+    }
+
+    .prompt {
+      font-size: clamp(17px, 3vw, 21px);
+      line-height: 1.6;
+      color: #f1f1f1;
+      border-left: 2px solid #f1f1f1;
+      padding-left: 14px;
+    }
+
+    .subtext {
+      color: #888;
+      font-size: 12px;
+      line-height: 1.5;
+      margin-top: 6px;
+      text-transform: lowercase;
+    }
+
+    .hint {
+      color: #6b6b6b;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #f7f7f7;
+      text-decoration: none;
+      border-bottom: 1px solid #2d2d2d;
+      padding-bottom: 2px;
+    }
+
+    a:hover {
+      border-color: #f7f7f7;
+    }
+
+    footer {
+      display: flex;
+      justify-content: flex-end;
+      color: #5a5a5a;
+      font-size: 11px;
+      gap: 12px;
+    }
+  </style>
 </head>
 <body>
-  <h2 id='body'></h2>
-  <p id='body'>allotrope</p>
-  <img src='allotrope.png' alt='allotrope llc logo' class='center'>
+  <main>
+    <header>
+      <div>
+        <h1>labdog.io</h1>
+        <div class="tagline">independent research — largely unpublished</div>
+      </div>
+      <div class="tagline">signal withheld</div>
+    </header>
+
+    <div class="prompt-list">
+      <div>
+        <div class="prompt">Do abnormal patterns in options trading volume and open interest precede material price movements or public information events, suggesting the presence of informed trading?</div>
+        <div class="subtext">this study investigates whether abnormal options trading activity contains predictive signals of information arrival prior to major market events.</div>
+      </div>
+
+      <div>
+        <div class="prompt">Can models trained on synthetic VAD-annotated corpora achieve higher correlation with human-rated emotional intensity than lexicon-based baselines?</div>
+        <div class="subtext">this study examines whether synthetic VAD-annotated data can enhance lexicon-based emotion representations for predicting emotional intensity and severity in text.</div>
+      </div>
+
+      <div>
+        <div class="prompt">Can a “six-degrees-of-separation” model built from public Instagram interactions provide interpretable and reliable paths between accounts without access to private network data?</div>
+        <div class="subtext">this research investigates whether publicly observable Instagram interactions can be used to model degrees of social separation between accounts when follower relationships are hidden by privacy settings.</div>
+      </div>
+    </div>
+
+    <p class="hint">
+      replies disappear into the archive. send a whisper:
+      <a href="mailto:devin@labdog.io">devin@labdog.io</a>
+    </p>
+
+    <footer>
+      <span>nothing else here.</span>
+    </footer>
+  </main>
 </body>
-<footer id='footer'>
-  <h3 id='body'>© 2021 Allotrope LLC. All rights reserved.</h3>
-</footer>
 </html>

@@ -1,2 +1,1 @@
-# allotrope.github.io
-source files for allotrope.github.io
+## labdog.io - independent research studio
